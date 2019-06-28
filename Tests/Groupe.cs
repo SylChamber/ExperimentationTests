@@ -26,9 +26,9 @@ namespace Tests
             }
         }
 
-        //public override string ToString()
-        //{
-        //    return $"{Nom}: [{string.Join("; ", Elements.Select(e => e.ToString()))}]";
-        //}
+        public override string ToString()
+        {
+           return $"{Nom}: [{string.Join("; ", Elements.Select(e => e.ToString()))}]";
+        }
     }
 }

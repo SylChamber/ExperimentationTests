@@ -21,9 +21,9 @@ namespace Tests
             yield return Adresse;
         }
 
-        //public override string ToString()
-        //{
-        //    return $@"Code: ""{Code}"", Adresse: ({Adresse})";
-        //}
+        public override string ToString()
+        {
+           return $@"Code: ""{Code}"", Adresse: ({Adresse})";
+        }
     }
 }
